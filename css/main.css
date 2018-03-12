@@ -226,6 +226,11 @@ header{
     background-color: #4CAF50; /* Green */
     color: tomato;
 }
+
+.menuItem:hover {
+    color: tomato;
+}
+
 .logo{
 	float:left;
 	background:url(../images/logo-2.png) no-repeat 0 0;
