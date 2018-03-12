@@ -48,7 +48,11 @@ $(document).ready(function(){
 	
 	
 });	
-
+new TypeIt('#typeme', {
+     strings: 'This is a simple string.',
+     speed: 50,
+     autoStart: false
+});
 
 	
 /*===========================================================*/
@@ -68,11 +72,7 @@ $(window).load(function(){
 		$('.navbar-collapse').slideToggle();										 
 	});					
 });
-new TypeIt('#typeme', {
-     strings: 'This is a simple string.',
-     speed: 50,
-     autoStart: false
-});
+
 // for banner height js
 var windowWidth = $(window).width();
 var windowHeight =$(window).height();
