@@ -48,12 +48,6 @@ $(document).ready(function(){
 	
 	
 });	
-new TypeIt('#typeme', {
-     strings: 'This is a simple string.',
-     speed: 50,
-     autoStart: false
-});
-
 	
 /*===========================================================*/
 	/*	Preloader 
