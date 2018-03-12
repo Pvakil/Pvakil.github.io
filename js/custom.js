@@ -68,7 +68,7 @@ $(window).load(function(){
 		$('.navbar-collapse').slideToggle();										 
 	});					
 });
-new TypeIt('#example1', {
+new TypeIt('#typeme', {
      strings: 'This is a simple string.',
      speed: 50,
      autoStart: false
