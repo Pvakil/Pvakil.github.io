@@ -17,7 +17,7 @@
 	        }
 
 	        if (HTML[cursorPosition] === "<") {
-	            tempTypeSpeed = 0;
+	            tempTypeSpeed = 200;
 	            if (tagOpen) {
 	                tagOpen = false;
 	                writingTag = true;
@@ -33,7 +33,7 @@
 	        }
 	        if (!writingTag && !tagOpen) {
 	            if (HTML[cursorPosition] === " ") {
-	                tempTypeSpeed = 0;
+	                tempTypeSpeed = 200;
 	            }
 	            else {
 	                tempTypeSpeed = (Math.random() * typeSpeed) + 50;
