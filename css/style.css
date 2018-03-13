@@ -10,9 +10,9 @@
   font-size: 2em;
   margin: 0;
   font-family: "Courier New";
-  background: tomato;
-  background-color: tomato;
-  border: 5px solid tomato;
+  background: #223A5E;
+  background-color: #223A5E;
+  border: 5px solid #223A5E;
   margin-bottom: -30px;
 }
 #typewriter:after {
