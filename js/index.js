@@ -7,7 +7,7 @@
 	        tag = "",
 	        writingTag = false,
 	        tagOpen = false,
-	        typeSpeed = 500,
+	        typeSpeed = 50,
         tempTypeSpeed = 0;
 
 	    var type = function() {
