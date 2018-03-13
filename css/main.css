@@ -187,12 +187,12 @@ h5{
 ------------------------------------------------------*/
 header{
 	position:relative;
-	background: tomato;
+	background: #223A5E;
 }
 .banner{
 	overflow:hidden ;
 
-	background: tomato;
+	background: #223A5E;
 }
 .patternOverlay {
 	background:#372d38;
