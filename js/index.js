@@ -7,8 +7,8 @@
 	        tag = "",
 	        writingTag = false,
 	        tagOpen = false,
-	        typeSpeed = 300,
-        tempTypeSpeed = 200;
+	        typeSpeed = 500,
+        tempTypeSpeed = 0;
 
 	    var type = function() {
         
@@ -17,7 +17,7 @@
 	        }
 
 	        if (HTML[cursorPosition] === "<") {
-	            tempTypeSpeed = 200;
+	            tempTypeSpeed = 0;
 	            if (tagOpen) {
 	                tagOpen = false;
 	                writingTag = true;
@@ -33,7 +33,7 @@
 	        }
 	        if (!writingTag && !tagOpen) {
 	            if (HTML[cursorPosition] === " ") {
-	                tempTypeSpeed = 200;
+	                tempTypeSpeed = 0;
 	            }
 	            else {
 	                tempTypeSpeed = (Math.random() * typeSpeed) + 50;
