@@ -48,6 +48,8 @@ $(document).ready(function(){
 	
 	
 });	
+
+
 	
 /*===========================================================*/
 	/*	Preloader 
@@ -66,7 +68,6 @@ $(window).load(function(){
 		$('.navbar-collapse').slideToggle();										 
 	});					
 });
-
 // for banner height js
 var windowWidth = $(window).width();
 var windowHeight =$(window).height();

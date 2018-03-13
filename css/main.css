@@ -1,4 +1,31 @@
+/* ------------------------------------------------------------------------------
 
+	Template Name: designstub
+	Template URI: http://www.designstub.com/
+	Description: Full Screen Design Agency Template
+	Author: Andy
+	Author URI: http://www.designstub.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+	1. CSS Reset
+	2. Document Setup
+	3. Header Part
+		3.1 Menu Style
+	4. About me Style
+	5. Skills Style
+	6. Experience Style
+	7. Education Style
+	8. Portfolio Style
+	9. Contact Style
+	10.Footer Style
+	11.Responsive style
+
+
+--------------------------------------------------------------------------------/*
+
+/*----------------------------------------------------
 	1. CSS Reset
 ------------------------------------------------------*/
 * {
@@ -164,7 +191,7 @@ header{
 }
 .banner{
 	overflow:hidden ;
-	margin:0 auto !important;
+
 	background: tomato;
 }
 .patternOverlay {
@@ -183,10 +210,13 @@ header{
 .bannerText{
 	width:100%;
 	position:absolute ;
-	left:0;
+
+	margin: -200px;
+
+
 	top:50%;
-	text-align:center;
-	margin-top:-35px;
+
+
 	padding:0 ;
 	z-index:999 ;
 }
@@ -203,7 +233,7 @@ header{
 	line-height:normal;
 	font-weight:400;
 	text-transform:none;
-	margin-bottom:20px;
+
 	letter-spacing:2px;
 }
 
@@ -224,13 +254,8 @@ header{
 }
 .nav navbar-nav:hover {
     background-color: #4CAF50; /* Green */
-    color: tomato;
+    color: white;
 }
-
-.menuItem:hover {
-    color: tomato;
-}
-
 .logo{
 	float:left;
 	background:url(../images/logo-2.png) no-repeat 0 0;
